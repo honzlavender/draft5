@@ -1,0 +1,162 @@
+/* the body style will set the style for the entire page. the back bone of the site */
+
+body
+{
+  background-color: #EBE3F2;
+  margin-top: -20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-bottom: 20px;
+}
+/*i wanted the header bg color to fit across any screen so i used auto at the margin*/
+header
+{
+  background-color: #754367;
+  padding-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-bottom: 0;
+  padding-left: 30px;
+}
+/* i wanted my name and titles to be centered in whatever screen they go to. computer, phone, etc */
+h1
+{
+  color: #EBE2F3;
+  font-family: GT Super Display, serif;
+  margin-bottom: -20px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 0;
+  padding-left: 30px;
+  text-align: center;
+}
+h2
+{
+  color: #EBE2F3;
+  font-size: 14px;
+  font-family: Montserrat thin, Helvetica Light, sans-serif;
+  font-weight: 100px;
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  text-align: center;
+}
+
+/* .center was really handy to be able to ONLY edit the image*/
+.center {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 30px;
+}
+/* like the body - the main really sets up everything in the middle of my site. a lot of text going on here so i wanted everything to be symetrical and centered*/
+main 
+{
+  margin-top: -20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-bottom: 20px;
+}
+/*using h3 for multiple subtitles makes it easy to keep them identical*/
+h3
+{
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  color: #754367;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+p
+{
+  color: #754367;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+}
+ul
+{
+  color: #754367;
+  font-family: Montserrat, sans-serif;
+  font-size: 13px;
+  font-style: oblique;
+}
+/*rulers are super simple and help break up the page.*/
+hr
+{
+  height: 3px;
+  background-color: #754367;
+  border: none;
+}
+a:link
+{
+  font-style: normal;
+  color: #8d038b;
+}
+
+a:hover
+{
+  font-style: italic;
+  color: #8d038b;
+}
+a:visited
+{
+  font-style: bold;
+  color: #8d038b;
+}
+/*
+.resize {
+  float: center;
+  width: 25%;
+  padding-left: 5px;
+  padding-bottom: 20px;
+}
+*/
+  .contact {
+    display: flex;
+    justify-content: center;
+  }
+
+ol {
+  list-style: none;
+  font-style: italic;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  color: #754367;
+  padding-right: 20px;
+  text-align: center;
+}
+
+/*these small images/buttons were so tricky. i figured out i needed to use two different ids/classes/titles so i could edit each individually and together*/
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+  .resize {
+    width: 50px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+footer
+{
+  color:#bca4d1;
+  font-family: GT Super Display, serif;
+  padding-top: 200px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 900; 
+}
